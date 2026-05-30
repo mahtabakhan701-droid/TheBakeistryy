@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bakeistry</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Georgia', serif;
+}
+
+body{
+    background:#f8f4ef;
+    color:#4b3d33;
+}
+
+header{
+    text-align:center;
+    padding:80px 20px;
+}
+
+header h1{
+    font-size:4rem;
+    margin-bottom:10px;
+}
+
+header p{
+    font-size:1.2rem;
+}
+
+.btn{
+    display:inline-block;
+    margin-top:25px;
+    padding:12px 30px;
+    background:#4b3d33;
+    color:white;
+    text-decoration:none;
+    border-radius:30px;
+}
+
+section{
+    padding:60px 10%;
+}
+
+h2{
+    text-align:center;
+    margin-bottom:30px;
+}
+
+.products{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+}
+
+.card{
+    background:white;
+    padding:25px;
+    border-radius:20px;
+    text-align:center;
+    box-shadow:0 3px 10px rgba(0,0,0,0.08);
+}
+
+.price{
+    margin-top:10px;
+    font-weight:bold;
+}
+
+.info{
+    text-align:center;
+    line-height:2;
+}
+
+footer{
+    text-align:center;
+    padding:30px;
+    background:#ede4d8;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Bakeistry</h1>
+    <p>Freshly baked goods made with love 🤍</p>
+    <a href="#menu" class="btn">View Menu</a>
+</header>
+
+<section id="menu">
+    <h2>Our Menu</h2>
+
+    <div class="products">
+
+        <div class="card">
+            <h3>NYC Chocolate Chip</h3>
+            <p>Thick, gooey and loaded with chocolate.</p>
+            <div class="price">Rs. 350</div>
+        </div>
+
+        <div class="card">
+            <h3>Nutella Cookie</h3>
+            <p>Stuffed with creamy Nutella.</p>
+            <div class="price">Rs. 350</div>
+        </div>
+
+        <div class="card">
+            <h3>Red Velvet Cookie</h3>
+            <p>Soft and rich red velvet flavor.</p>
+            <div class="price">Rs. 350</div>
+        </div>
+
+        <div class="card">
+            <h3>Fudge Brownie</h3>
+            <p>Dense, fudgy and chocolatey.</p>
+            <div class="price">Rs. 400</div>
+        </div>
+
+    </div>
+</section>
+
+<section>
+    <h2>Ordering Information</h2>
+
+    <div class="info">
+        <p>🤍 Order at least 2 hours before delivery</p>
+        <p>🤍 Online payment only</p>
+        <p>🤍 Available in Karachi</p>
+        <p>🤍 DM for custom orders and queries</p>
+    </div>
+</section>
+
+<section>
+    <h2>Contact Us</h2>
+
+    <div class="info">
+        <p>Instagram: @bakeistry</p>
+        <p>Email: hello@bakeistry.com</p>
+    </div>
+</section>
+
+<footer>
+    Everything is made with love 🤍
+</footer>
+
+</body>
+</html>
